@@ -6,5 +6,5 @@ RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
 ADD start.sh /start.sh
 
-EXPOSE 80
+EXPOSE 80 443
 CMD /start.sh
